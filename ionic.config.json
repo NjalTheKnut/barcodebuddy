@@ -1,0 +1,8 @@
+{
+  "name": "barcodebuddy",
+  "app_id": "cdda0b44",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
