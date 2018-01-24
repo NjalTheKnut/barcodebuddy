@@ -16,10 +16,13 @@
 <ion-content padding>
   <ion-list>
 
-    <ion-item>
-      <ion-label fixed>Last Scan</ion-label>
-      <ion-input type="text" value=""></ion-input>
+    <ion-item padding>
+      <ion-label>Last Scan: </ion-label>
+      <div item-content>
+        {{ scanResult }}
+      </div>
     </ion-item>
+    <button ion-button block color="dark" (click)="ScanBarcode()">Scan</button>
   </ion-list>
   <ion-item>
   <button ion-button block>Scan</button>
